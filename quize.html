@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="./assets/img/favicon.png">
+		<title>All Quizzes</title>
+		<script type="module" crossorigin="" src="./js/quize.min.js?v=1762702862267"></script>
+		<link rel="modulepreload" crossorigin="" href="./js/app.min.js?v=1762702862267">
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1762702862267">
+		<link rel="stylesheet" crossorigin="" href="./css/quize.min.css?v=1762702862267">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" class="header">
+				<div class="header__container">
+					<!-- <include src="@components/layout/menu/menu.html" locals='{"active":"Home"}'></include> -->
+				</div>
+			</header>
+			<main class="quiz">
+				<canvas id="confetti"></canvas>
+				<div class="quiz__container">
+					<!-- Quiz Header -->
+					<div class="quiz__header">
+						<h1 class="quiz__title">General Knowledge Quiz</h1>
+					</div>
+					<!-- Quiz Question -->
+					<div class="quiz__question-box"></div>
+					<div class="quiz__controls"><!-- Next Button --></div>
+				</div>
+				<audio id="quizAudio" src="../../../assets/audio/yay.mp3"></audio>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container"></div>
+			</footer>
+		</div>
+	</body>
+</html>
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    document.body.insertAdjacentHTML('beforeend', `
+	[object Object]
+	[object Object]
+	`)
+  });
+</script>
