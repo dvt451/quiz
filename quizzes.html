@@ -1,49 +1,52 @@
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="shortcut icon" href="./assets/img/favicon.png">
-		<title>Quize</title>
-		<script type="module" crossorigin="" src="./js/app.min.js?v=1762702862267"></script>
-		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1762702862267">
-		<link rel="stylesheet" crossorigin="" href="./css/quizzes.min.css?v=1762702862267">
-	</head>
-	<body>
-		<div class="wrapper">
-			<header data-fls-header="" class="header">
-				<div class="header__container">
-					<!-- <include src="@components/layout/menu/menu.html" locals='{"active":"Home"}'></include> -->
-				</div>
-			</header>
-			<main class="quizzes">
-				<div class="quizzes__container">
-					<h1 class="quizzes__title">Available Quizzes</h1>
-					<p class="quizzes__description">Choose a quiz to test your knowledge!</p>
-					<ul class="quizzes__list">
-						<li class="quizzes__item">
-							<a href="/quize.html" class="quizzes__link">Quiz 1: General Knowledge</a>
-						</li>
-						<li class="quizzes__item">
-							<a href="/quize.html" class="quizzes__link">Quiz 2: Science and Nature</a>
-						</li>
-						<li class="quizzes__item">
-							<a href="/quize.html" class="quizzes__link">Quiz 3: History and Geography</a>
-						</li>
-					</ul>
-				</div>
-			</main>
-			<footer data-fls-footer="" class="footer">
-				<div class="footer__container"></div>
-			</footer>
-		</div>
-	</body>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="./assets/img/favicon.png">
+	<title>All Quizzes</title>
+	<script type="module" crossorigin="" src="./js/app.min.js?v=1762702862267"></script>
+	<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1762702862267">
+	<link rel="stylesheet" crossorigin="" href="./css/quizzes.min.css?v=1762702862267">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-fls-header="" class="header">
+			<div class="header__container">
+				<!-- <include src="@components/layout/menu/menu.html" locals='{"active":"Home"}'></include> -->
+			</div>
+		</header>
+		<main class="quizzes">
+			<div class="quizzes__container">
+				<h1 class="quizzes__title">Available Quizzes</h1>
+				<p class="quizzes__description">Choose a quiz to test your knowledge!</p>
+				<ul class="quizzes__list">
+					<li class="quizzes__item">
+						<a href="/quize.html" class="quizzes__link">Quiz 1: General Knowledge</a>
+					</li>
+					<li class="quizzes__item">
+						<a href="/quize.html" class="quizzes__link">Quiz 2: Science and Nature</a>
+					</li>
+					<li class="quizzes__item">
+						<a href="/quize.html" class="quizzes__link">Quiz 3: History and Geography</a>
+					</li>
+				</ul>
+			</div>
+		</main>
+		<footer data-fls-footer="" class="footer">
+			<div class="footer__container"></div>
+		</footer>
+	</div>
+</body>
+
 </html>
 <script>
-  window.addEventListener('DOMContentLoaded', () => {
-    document.body.insertAdjacentHTML('beforeend', `
+	window.addEventListener('DOMContentLoaded', () => {
+		document.body.insertAdjacentHTML('beforeend', `
 	[object Object]
 	[object Object]
 	`)
-  });
+	});
 </script>
